@@ -1,7 +1,5 @@
 package hw;
 
-import jdk.jfr.Category;
-
 import java.util.ArrayList;
 
 public class main {

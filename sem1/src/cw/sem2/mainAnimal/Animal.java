@@ -1,6 +1,6 @@
-package cw;
+package cw.sem2.mainAnimal;
 
-public class Animal {
+public abstract class Animal {
     public Animal(String name) {
         this.name = name;
     }
@@ -26,9 +26,7 @@ public class Animal {
                 '}';
     }
 
-    protected void animalInfo() {
-        System.out.println("Name animal - " + name);
-    }
+    protected abstract void animalInfo();
 
     protected void voice() {
         System.out.println("the animal makes a sound");

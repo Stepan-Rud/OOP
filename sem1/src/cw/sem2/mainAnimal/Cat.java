@@ -1,4 +1,4 @@
-package cw;
+package cw.sem2.mainAnimal;
 
 public class Cat extends Animal {
     private String color;
@@ -53,7 +53,7 @@ public class Cat extends Animal {
     }
     @Override
     protected void animalInfo() {
-        super.animalInfo();
+        System.out.println("toString() = " + toString());
     }
 
     @Override
@@ -64,5 +64,18 @@ public class Cat extends Animal {
     @Override
     protected void jump() {
         super.jump();
+    }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "color='" + color + '\'' +
+                ", age=" + age +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    public void clubok() {
+        System.out.println(name + " свернулся в клубок");
     }
 }

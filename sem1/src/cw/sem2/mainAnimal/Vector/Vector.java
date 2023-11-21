@@ -1,4 +1,4 @@
-package cw;
+package cw.sem2.mainAnimal.Vector;
 
 public class Vector {
     private Integer x;
