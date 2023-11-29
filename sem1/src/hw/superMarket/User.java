@@ -1,4 +1,4 @@
-package hw;
+package hw.superMarket;
 
 public class User {
     private String login;

@@ -1,4 +1,4 @@
-package hw;
+package hw.superMarket;
 
 import java.util.ArrayList;
 
