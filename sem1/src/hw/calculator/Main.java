@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 package hw.calculator;
 
+=======
+>>>>>>> 31f807bc6088000d56cb432d5fc060f9f583cb64
 import java.util.ArrayList;
 import java.util.Arrays;
 
